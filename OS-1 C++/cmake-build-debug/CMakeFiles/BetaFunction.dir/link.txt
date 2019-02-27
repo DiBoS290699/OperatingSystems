@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/BetaFunction.dir/main.cpp.o  -o BetaFunction.exe -Wl,--out-implib,libBetaFunction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

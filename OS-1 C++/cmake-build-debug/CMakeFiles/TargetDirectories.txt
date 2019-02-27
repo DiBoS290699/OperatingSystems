@@ -1,0 +1,3 @@
+/cygdrive/c/Other Programs/CLion 2018.3.4/Labs/BetaFunction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Other Programs/CLion 2018.3.4/Labs/BetaFunction/cmake-build-debug/CMakeFiles/BetaFunction.dir
+/cygdrive/c/Other Programs/CLion 2018.3.4/Labs/BetaFunction/cmake-build-debug/CMakeFiles/edit_cache.dir
