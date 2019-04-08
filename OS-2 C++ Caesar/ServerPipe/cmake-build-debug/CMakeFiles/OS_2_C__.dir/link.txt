@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/OS_2_C__.dir/ServerPipe.cpp.o  -o OS_2_C__.exe -Wl,--out-implib,libOS_2_C__.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

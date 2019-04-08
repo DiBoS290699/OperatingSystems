@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ServerPipe/DecryptCaesar.h
+string
+-
+
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ServerPipe/ServerPipe.cpp
+windows.h
+-
+iostream
+-
+io.h
+-
+fcntl.h
+-
+codecvt
+-
+string
+-
+DecryptCaesar.h
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ServerPipe/DecryptCaesar.h
+

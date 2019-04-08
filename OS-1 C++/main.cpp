@@ -59,7 +59,7 @@ int main() {
             cin >> a;
             cin >> b;
             BetaFunction beta;
-            printf("B[%f](%f, %f) = %f\n", x, a, b, beta.integrate(x, a, b, 0.01));
+            printf("B[%f](%f, %f) = %f\n", x, a, b, beta.integrate(x, a, b, 0.001));
             return 0;
         }
         catch (...) {

@@ -5,7 +5,7 @@ public class Main {
                 BetaFunction beta = new BetaFunction();
                 beta.readArguments();
                 System.out.printf("B[%f](%f, %f) = %f\n", beta.getX(), beta.getA(), beta.getB(),
-                        beta.integrate(0.01));
+                        beta.integrate(0.001));
                 break;
             }
             catch (Throwable e) {

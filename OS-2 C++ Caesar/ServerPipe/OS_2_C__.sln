@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "OS_2_C__", "cmake-build-debug\OS_2_C__.exe", "{50474900-2C17-4384-80C3-51D9778D6BE4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-2 C++\ServerPipe\cmake-build-debug\OS_2_C__.exe
+		RemoteMachine = DESKTOP-QIE30SR
+		StartingDirectory = C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-2 C++\ServerPipe\cmake-build-debug
+		Environment = По умолчанию
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50474900-2C17-4384-80C3-51D9778D6BE4}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD75340-A98D-4C02-95CB-A6FA0086BC29}
+	EndGlobalSection
+EndGlobal

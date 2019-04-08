@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Other Programs/CLion 2018.3.4/Labs/BetaFunction/main.cpp" "/cygdrive/c/Other Programs/CLion 2018.3.4/Labs/BetaFunction/cmake-build-debug/CMakeFiles/BetaFunction.dir/main.cpp.o"
+  "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-1 C++/main.cpp" "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-1 C++/cmake-build-debug/CMakeFiles/BetaFunction.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
