@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/ClientPipe.cpp
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/ClientPipe.cpp
 windows.h
 -
 iostream
@@ -20,9 +20,9 @@ codecvt
 string
 -
 EncryptCaesar.h
-/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/EncryptCaesar.h
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/EncryptCaesar.h
 
-/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/EncryptCaesar.h
+/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/EncryptCaesar.h
 string
 -
 

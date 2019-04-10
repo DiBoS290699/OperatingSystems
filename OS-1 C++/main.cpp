@@ -3,9 +3,9 @@
 
 using namespace std;
 
-/*Необходимо реализовать неполную бета-функцию.*/
+/*You must implement an incomplete beta feature.*/
 
-//Данный метод очищает поток после неверно введённых значений
+//This method cleans up the thread after the incorrect values
 void ClearInputStream(istream &in) {
     in.clear();
     while (in.peek()!= '\n' && in.peek()!=EOF){
@@ -13,22 +13,22 @@ void ClearInputStream(istream &in) {
     }
 }
 
-/*Класс Бета-Функции
- * Данный класс не будет иметь каких-либо полей,
- * он будет уметь только вычислять интеграл на отрезке [0; x]
- * с двумя параметрами: 'а' и 'b'.
+/*Class A Beta Feature
+ * This class will not have any fields,
+ * he will only be able to calculate the integral on the interval [0; x]
+ * with two parameters: 'a' and 'b'.
 */
 class BetaFunction {
 public:
 
-    //Данный метод вычисляет подинтегральное выражение
+    //This method calculates pathintegral expression
     double getFunctionValue (double t, double a, double b) {
         return pow(t, a-1)*pow((1-t),b-1);
     }
 
-    //Интегрирование производится методом трапеций
+    //The integration is made by the method of trapezoids
     double integrate (double x, double a, double b, double discreteStep) {
-        //Необходимая проверка корректности входных данных
+        //It is necessary to check the validity of input data
         if (x < 0 || x > 1 || a <= 0 || b <= 0 || discreteStep <= 0 || discreteStep >= 1)
             throw "Incorrect arguments!";
         double integralSum = 0, temp = 0;
@@ -38,7 +38,7 @@ public:
                            (this->getFunctionValue(temp + discreteStep, a, b) -  this->getFunctionValue(temp, a, b))* discreteStep / 2;
             temp += discreteStep;
         }
-        //На области интегрирования находится отрезок, меньший чем дискретный шаг (discreteStep)
+        //On the integration area there is a segment smaller than the discrete step (discreteStep)
         double end = x - temp;
         integralSum += this->getFunctionValue(temp, a, b) * end +
                        (this->getFunctionValue(temp + end, a, b) -  this->getFunctionValue(temp, a, b))* end / 2;

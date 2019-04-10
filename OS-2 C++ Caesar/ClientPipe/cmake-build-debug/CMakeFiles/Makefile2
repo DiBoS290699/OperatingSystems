@@ -59,10 +59,10 @@ RM = /cygdrive/c/Users/DiBoS/.CLion2018.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/ClientPipe.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C
 CMakeFiles/ClientPipe.dir/all:
 	$(MAKE) -f CMakeFiles/ClientPipe.dir/build.make CMakeFiles/ClientPipe.dir/depend
 	$(MAKE) -f CMakeFiles/ClientPipe.dir/build.make CMakeFiles/ClientPipe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target ClientPipe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target ClientPipe"
 .PHONY : CMakeFiles/ClientPipe.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/ClientPipe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ClientPipe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ClientPipe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++/ClientPipe/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/DiBoS/Desktop/Labs/OperatingSystems/OS-2 C++ Caesar/ClientPipe/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/ClientPipe.dir/rule
 
 # Convenience name for target.

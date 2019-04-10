@@ -11,60 +11,59 @@
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "rus");
     HANDLE hNamedPipe;
     hNamedPipe = CreateNamedPipe(
-            "\\\\.\\pipe\\CaesarPipe",  // имя канала
-            PIPE_ACCESS_DUPLEX, // читаем из канала
-            PIPE_TYPE_MESSAGE | PIPE_WAIT, // синхронная передача сообщений
-            1, // максимальное количество экземпляров канала
-            0, // размер выходного буфера по умолчанию
-            0, // размер входного буфера по умолчанию
-            INFINITE, // клиент ждет связь бесконечно долго
-            (LPSECURITY_ATTRIBUTES) NULL // защита по умолчанию
+            "\\\\.\\pipe\\CaesarPipe",  // pipe name
+            PIPE_ACCESS_DUPLEX, // read from pipe
+            PIPE_TYPE_MESSAGE | PIPE_WAIT, // synchronous message transmission
+            1, // maximum number of channel instances
+            0, // the size of the output buffer by default
+            0, // the size of the input buffer by default
+            INFINITE, // the client is waiting for an infinitely long connection
+            (LPSECURITY_ATTRIBUTES) NULL // default protection
             );
-    // проверяем на успешное создание
+    // check for successful creation
     if (hNamedPipe == INVALID_HANDLE_VALUE) {
-        cerr << "Ошибка при создании канала" << endl
-        << "Код ошибки: " << GetLastError() << endl;
+        cerr << "Error when creating a channel" << endl
+        << "Error code: " << GetLastError() << endl;
         return 0;
     }
-    // ждем пока клиент свяжется с каналом
-    cout << "Ожидаем подключение клиента" << endl;
+    // waiting for the client to contact the pipe
+    cout << "Waiting for client connection" << endl;
     if (!ConnectNamedPipe(
-            hNamedPipe, // дескриптор канала
-            (LPOVERLAPPED) NULL // связь синхронная
+            hNamedPipe, // descriptor of the pipe
+            (LPOVERLAPPED) NULL // synchronous communication
             ))
     {
-        cerr << "Не удалось дождаться клиента" << endl
-        << "Код ошибки: " << GetLastError() << endl;
+        cerr << "Could not wait for client" << endl
+        << "Error code: " << GetLastError() << endl;
         CloseHandle(hNamedPipe);
         return 0;
     }
     char out[100];
-    // читаем данные из канала
-    int nData;
+    // read data from the pipe
     DWORD dwBytesRead;
     if (!ReadFile(
-            hNamedPipe, // дескриптор канала
-            out, // адрес буфера для ввода данных
-            100, // количество читаемых байтов
-            &dwBytesRead, // количество прочитанных байтов
-            (LPOVERLAPPED) NULL // передача данных синхронная
+            hNamedPipe, // descriptor of the pipe
+            out, // buffer address for data entry
+            100, // number of bytes read
+            &dwBytesRead, // number of bytes read
+            (LPOVERLAPPED) NULL // data transmission synchronous
         ))
     {
-        cerr << "Не удалось прочитать данные из канала" << endl
-        << "Код ошибки: " << GetLastError() << endl;
+        cerr << "Could not read data from pipe" << endl
+        << "Error code: " << GetLastError() << endl;
         CloseHandle(hNamedPipe);
         return 0;
     }
-    // расшифровываем полученные данные
+    // decrypt the data
     string decryptOut = decription(out);
-    // выводим прочитанные данные на консоль
-    cout << "Получено сообщение:  " << decryptOut  << endl;
-    // закрываем дескриптор канала
+    // output the read data to the console
+    cout << "The received message:  " << decryptOut  << endl;
+    // close the pipe descriptor
     CloseHandle(hNamedPipe);
-    // завершаем процесс
-    cout << "Данные успешно доставлены" << endl;
+    // complete the process
+    cout << "The data was successfully delivered" << endl;
+    delete out;
     return 0;
 }
