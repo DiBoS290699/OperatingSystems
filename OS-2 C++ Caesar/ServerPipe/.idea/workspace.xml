@@ -12,66 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aa2e659-9198-46ea-85c9-cabfa278b0e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../OS-1 C++/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-1 C++/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS-1 C++/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-1 C++/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS-1 Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-1 Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OS-1 Java/src/BetaFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-1 Java/src/BetaFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/ClientPipe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/ClientPipe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/ClientPipe.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/ClientPipe.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/ClientPipe.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/ClientPipe.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/ClientPipe.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/ClientPipe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/ClientPipe.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientPipe/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/OS_2_C__/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/OS_2_C__/v16/Solution.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ServerPipe/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ServerPipe/v16/Browse.VC.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ServerPipe/v16/ipch/AutoPCH/2d86969c955d90a1/SERVERPIPE.ipch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OS_2_C__.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerPipe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ServerPipe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecryptCaesar.h" beforeDir="false" afterPath="$PROJECT_DIR$/DecryptCaesar.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/ServerPipe.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/ServerPipe.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OS_2_C__.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OS_2_C__.exe.stackdump" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/ClientDataBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/ClientDataBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientDataBase.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientDataBase.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/ClientPipe.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ClientPipe/Project1/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/DO_NOT_TOUCH.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/DO_NOT_TOUCH.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerDataBase.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerDataBase.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/ServerPipe.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/ServerDataBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../OS-2 C++ DataBase/ServerPipe/ServerDataBase.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ServerPipe.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state relative-caret-position="316">
+              <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -104,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DecryptCaesar.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -146,7 +110,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientPipe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -192,11 +156,14 @@
       <workItem from="1554624264322" duration="77000" />
       <workItem from="1554839915153" duration="413000" />
       <workItem from="1554840396439" duration="205000" />
+      <workItem from="1554910048890" duration="5496000" />
+      <workItem from="1554916439596" duration="306000" />
+      <workItem from="1554962623934" duration="1520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18891000" />
+    <option name="totallyTimeSpent" value="26213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -264,15 +231,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecryptCaesar.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServerPipe.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        <state relative-caret-position="316">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
         </state>
       </provider>
     </entry>

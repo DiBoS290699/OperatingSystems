@@ -31,6 +31,11 @@ void error(int err, HANDLE& hNamedPipe) {
 			CloseHandle(hNamedPipe);
 			exit(4);
 		}
+		case 5: {
+			cout << "No information found for this query!\n";
+			CloseHandle(hNamedPipe);
+			//exit(5);
+		}
 	}
 }
 
@@ -64,7 +69,9 @@ int main() {
 	char request[50];
 	// read data from the pipe
 	DWORD dwBytesRead;
-	if (!ReadFile(
+
+	// Handling multiple client messages
+	while (ReadFile(
 		hNamedPipe, // descriptor of the pipe
 		request, // buffer address for data entry
 		50, // number of bytes read
@@ -72,22 +79,25 @@ int main() {
 		(LPOVERLAPPED)NULL // data transmission synchronous
 	))
 	{
-		error(3, hNamedPipe);
-	}
-	
-	string answer;
-	int index;
-	try {
-		index = atoi(request);
-	}
-	catch (...) {
-		error(4, hNamedPipe);
-	}
-	for (int i = 0; i < index; ++i) {
-		getline(base, answer);
-	}
 
-	cout << "Query result:\n" << answer << endl;
+		base.seekg(0, ios_base::beg);	//move the pointer to the beginning of the file
+		string answer;
+		int index;
+		try {
+			index = atoi(request);
+			if (index <= 0 || index > 10) {
+				cout << "No information found for this query!\n";
+				continue;
+			}
+			for (int i = 0; i < index; ++i) {
+				getline(base, answer);
+			}
+			cout << "Query result:\n" << answer << endl;
+		}
+		catch (...) {
+			error(4, hNamedPipe);
+		}
+	}
 	base.close();
 	CloseHandle(hNamedPipe);
 	return 0;

@@ -11,6 +11,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "rus");
     HANDLE hNamedPipe;
     hNamedPipe = CreateNamedPipe(
             "\\\\.\\pipe\\CaesarPipe",  // pipe name
@@ -64,6 +65,5 @@ int main() {
     CloseHandle(hNamedPipe);
     // complete the process
     cout << "The data was successfully delivered" << endl;
-    delete out;
     return 0;
 }

@@ -12,6 +12,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "rus");
     HANDLE hNamedPipe;
     hNamedPipe = CreateFile(
             "\\\\.\\pipe\\CaesarPipe",

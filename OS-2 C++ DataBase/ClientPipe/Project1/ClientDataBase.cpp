@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const string INFO = "Enter the number of information you are interested in: ";
+const string INFO = "Enter the number of information you are interested in [from 1 to 10]: ";
 
 void error(int err, HANDLE& hNamedPipe) {
 	switch (err) 
@@ -44,40 +44,38 @@ int main() {
 		error(1, hNamedPipe);
 	}
 
-	cout << INFO;
-	string request;
-	getline(cin, request);
-	int request_size = request.length();
-	while (!request_size) {
-		cout << "You entered nothing. Try again." << endl;
+	char buff[50];
+	do {
 		cout << INFO;
-		getline(cin, request);
-		request_size = request.length();
-	}
+		cin.getline(buff, 50);
+		while (buff[0] == '\0') {
+			cout << "You entered nothing. Try again." << endl;
+			cout << INFO;
+			cin.getline(buff, 50);
+		}
+		if (buff[0] == 'q' && buff[1] == 'u' && buff[2] == 'i'
+			&& buff[3] == 't') 
+		{
+			// close the channel descriptor
+			CloseHandle(hNamedPipe);
+			return 0;
+		}
 
-	char* buff = (char*) malloc(request_size);
-	for (int i = 0; i < request_size; ++i) {
-		*(buff+i) = request[i];
-	}
-	
-	DWORD dwBytesWritten;
-	if (!WriteFile(
-		hNamedPipe, // descriptor of the pipe
-		buff, // data
-		static_cast<DWORD>(strlen(buff) + 1), // data size
-		&dwBytesWritten, // number of bytes written
-		(LPOVERLAPPED)NULL // synchronous recording
-	))
-	{
-		// write error
-		error(2, hNamedPipe);
-	}
-
-	// close the channel descriptor
-	CloseHandle(hNamedPipe);
+		DWORD dwBytesWritten;
+		if (!WriteFile(
+			hNamedPipe, // descriptor of the pipe
+			buff, // data
+			static_cast<DWORD>(strlen(buff) + 1), // data size
+			&dwBytesWritten, // number of bytes written
+			(LPOVERLAPPED)NULL // synchronous recording
+		))
+		{
+			// write error
+			error(2, hNamedPipe);
+		}
+		cout << "Data successfully sent to the server" << endl;
+	} while (true);
 	// complete the process
-	cout << "Data successfully sent to the server" << endl;
-
-	free(buff); 
+	
 	return 0;
 }
