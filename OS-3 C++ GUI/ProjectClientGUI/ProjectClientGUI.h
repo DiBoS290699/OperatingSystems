@@ -12,18 +12,7 @@ bool a = 0; bool b = 0; bool c = 0; bool d = 0; bool E = 0; bool f = 0; bool g =
 bool j = 0; bool k = 0; bool l = 0; bool m = 0; bool n = 0; bool o = 0; bool p = 0; bool q = 0; bool r = 0;
 bool s = 0; bool t = 0; bool u = 0; bool w = 0; bool v = 0; bool x = 0; bool y = 0; bool z = 0;
 
-CHAR lpEventNameA[] = "A"; CHAR lpEventNameB[] = "B"; CHAR lpEventNameC[] = "C";
-CHAR lpEventNameD[] = "D"; CHAR lpEventNameE[] = "E"; CHAR lpEventNameF[] = "F";
-CHAR lpEventNameG[] = "G"; CHAR lpEventNameH[] = "H"; CHAR lpEventNameI[] = "I";
-CHAR lpEventNameJ[] = "J"; CHAR lpEventNameK[] = "K"; CHAR lpEventNameL[] = "L";
-CHAR lpEventNameM[] = "M"; CHAR lpEventNameN[] = "N"; CHAR lpEventNameO[] = "O";
-CHAR lpEventNameP[] = "P"; CHAR lpEventNameQ[] = "Q"; CHAR lpEventNameR[] = "R";
-CHAR lpEventNameS[] = "S"; CHAR lpEventNameT[] = "T"; CHAR lpEventNameU[] = "U";
-CHAR lpEventNameW[] = "W"; CHAR lpEventNameV[] = "V"; CHAR lpEventNameX[] = "X";
-CHAR lpEventNameY[] = "Y"; CHAR lpEventNameZ[] = "Z";; CHAR lpEventName6[] = "START";
-CHAR lpEventName7[] = "SHOW"; CHAR lpEventName8[] = "WORK"; CHAR lpEventName9[] = "PASSWORD";
-CHAR lpEventName10[] = "ACCEPT";
-HANDLE hPassWord = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventName9);
+HANDLE hPassWord = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"PASSWORD");
 HANDLE hSem = CreateSemaphore(NULL, 3, 3, (LPWSTR)"SEM");
 #pragma once
 namespace ProjectClientGUI {
@@ -195,9 +184,9 @@ namespace ProjectClientGUI {
 			// 
 			// button6
 			// 
-			this->button6->Location = System::Drawing::Point(167, 235);
+			this->button6->Location = System::Drawing::Point(65, 200);
 			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(96, 40);
+			this->button6->Size = System::Drawing::Size(96, 29);
 			this->button6->TabIndex = 5;
 			this->button6->Text = L" Z AND QUIT";
 			this->button6->UseVisualStyleBackColor = true;
@@ -205,7 +194,7 @@ namespace ProjectClientGUI {
 			// 
 			// button7
 			// 
-			this->button7->Location = System::Drawing::Point(14, 165);
+			this->button7->Location = System::Drawing::Point(168, 130);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(45, 29);
 			this->button7->TabIndex = 10;
@@ -215,7 +204,7 @@ namespace ProjectClientGUI {
 			// 
 			// button8
 			// 
-			this->button8->Location = System::Drawing::Point(218, 130);
+			this->button8->Location = System::Drawing::Point(116, 130);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(45, 29);
 			this->button8->TabIndex = 9;
@@ -225,7 +214,7 @@ namespace ProjectClientGUI {
 			// 
 			// button9
 			// 
-			this->button9->Location = System::Drawing::Point(116, 130);
+			this->button9->Location = System::Drawing::Point(14, 130);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(45, 29);
 			this->button9->TabIndex = 8;
@@ -235,7 +224,7 @@ namespace ProjectClientGUI {
 			// 
 			// button10
 			// 
-			this->button10->Location = System::Drawing::Point(65, 130);
+			this->button10->Location = System::Drawing::Point(269, 95);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(45, 29);
 			this->button10->TabIndex = 7;
@@ -245,7 +234,7 @@ namespace ProjectClientGUI {
 			// 
 			// button11
 			// 
-			this->button11->Location = System::Drawing::Point(14, 130);
+			this->button11->Location = System::Drawing::Point(218, 95);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(45, 29);
 			this->button11->TabIndex = 6;
@@ -255,7 +244,7 @@ namespace ProjectClientGUI {
 			// 
 			// button12
 			// 
-			this->button12->Location = System::Drawing::Point(218, 95);
+			this->button12->Location = System::Drawing::Point(167, 95);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(45, 29);
 			this->button12->TabIndex = 15;
@@ -265,7 +254,7 @@ namespace ProjectClientGUI {
 			// 
 			// button13
 			// 
-			this->button13->Location = System::Drawing::Point(167, 95);
+			this->button13->Location = System::Drawing::Point(116, 95);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(45, 29);
 			this->button13->TabIndex = 14;
@@ -275,7 +264,7 @@ namespace ProjectClientGUI {
 			// 
 			// button14
 			// 
-			this->button14->Location = System::Drawing::Point(116, 95);
+			this->button14->Location = System::Drawing::Point(65, 95);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(45, 29);
 			this->button14->TabIndex = 13;
@@ -285,7 +274,7 @@ namespace ProjectClientGUI {
 			// 
 			// button15
 			// 
-			this->button15->Location = System::Drawing::Point(65, 95);
+			this->button15->Location = System::Drawing::Point(14, 95);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(45, 29);
 			this->button15->TabIndex = 12;
@@ -295,7 +284,7 @@ namespace ProjectClientGUI {
 			// 
 			// button16
 			// 
-			this->button16->Location = System::Drawing::Point(14, 95);
+			this->button16->Location = System::Drawing::Point(269, 60);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(45, 29);
 			this->button16->TabIndex = 11;
@@ -305,7 +294,7 @@ namespace ProjectClientGUI {
 			// 
 			// button17
 			// 
-			this->button17->Location = System::Drawing::Point(14, 200);
+			this->button17->Location = System::Drawing::Point(116, 165);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(45, 29);
 			this->button17->TabIndex = 20;
@@ -315,7 +304,7 @@ namespace ProjectClientGUI {
 			// 
 			// button18
 			// 
-			this->button18->Location = System::Drawing::Point(218, 165);
+			this->button18->Location = System::Drawing::Point(65, 165);
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(45, 29);
 			this->button18->TabIndex = 19;
@@ -325,7 +314,7 @@ namespace ProjectClientGUI {
 			// 
 			// button19
 			// 
-			this->button19->Location = System::Drawing::Point(167, 165);
+			this->button19->Location = System::Drawing::Point(14, 165);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(45, 29);
 			this->button19->TabIndex = 18;
@@ -335,7 +324,7 @@ namespace ProjectClientGUI {
 			// 
 			// button20
 			// 
-			this->button20->Location = System::Drawing::Point(116, 165);
+			this->button20->Location = System::Drawing::Point(269, 130);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(45, 29);
 			this->button20->TabIndex = 17;
@@ -345,7 +334,7 @@ namespace ProjectClientGUI {
 			// 
 			// button21
 			// 
-			this->button21->Location = System::Drawing::Point(65, 165);
+			this->button21->Location = System::Drawing::Point(218, 130);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(45, 29);
 			this->button21->TabIndex = 16;
@@ -355,7 +344,7 @@ namespace ProjectClientGUI {
 			// 
 			// button22
 			// 
-			this->button22->Location = System::Drawing::Point(167, 130);
+			this->button22->Location = System::Drawing::Point(65, 130);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(45, 29);
 			this->button22->TabIndex = 25;
@@ -365,7 +354,7 @@ namespace ProjectClientGUI {
 			// 
 			// button23
 			// 
-			this->button23->Location = System::Drawing::Point(218, 200);
+			this->button23->Location = System::Drawing::Point(14, 200);
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(45, 29);
 			this->button23->TabIndex = 24;
@@ -375,7 +364,7 @@ namespace ProjectClientGUI {
 			// 
 			// button24
 			// 
-			this->button24->Location = System::Drawing::Point(167, 200);
+			this->button24->Location = System::Drawing::Point(269, 165);
 			this->button24->Name = L"button24";
 			this->button24->Size = System::Drawing::Size(45, 29);
 			this->button24->TabIndex = 23;
@@ -385,7 +374,7 @@ namespace ProjectClientGUI {
 			// 
 			// button25
 			// 
-			this->button25->Location = System::Drawing::Point(116, 200);
+			this->button25->Location = System::Drawing::Point(218, 165);
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(45, 29);
 			this->button25->TabIndex = 22;
@@ -395,7 +384,7 @@ namespace ProjectClientGUI {
 			// 
 			// button26
 			// 
-			this->button26->Location = System::Drawing::Point(65, 200);
+			this->button26->Location = System::Drawing::Point(167, 165);
 			this->button26->Name = L"button26";
 			this->button26->Size = System::Drawing::Size(45, 29);
 			this->button26->TabIndex = 21;
@@ -406,9 +395,9 @@ namespace ProjectClientGUI {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(65, 44);
+			this->label1->Location = System::Drawing::Point(113, 44);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(136, 13);
+			this->label1->Size = System::Drawing::Size(100, 13);
 			this->label1->TabIndex = 26;
 			this->label1->Text = L"Enter your message";
 			// 
@@ -416,15 +405,15 @@ namespace ProjectClientGUI {
 			// 
 			this->textBox1->Location = System::Drawing::Point(83, 12);
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(180, 20);
+			this->textBox1->Size = System::Drawing::Size(231, 20);
 			this->textBox1->TabIndex = 27;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm1::textBox1_TextChanged);
 			// 
 			// button27
 			// 
-			this->button27->Location = System::Drawing::Point(14, 235);
+			this->button27->Location = System::Drawing::Point(168, 200);
 			this->button27->Name = L"button27";
-			this->button27->Size = System::Drawing::Size(147, 40);
+			this->button27->Size = System::Drawing::Size(147, 29);
 			this->button27->TabIndex = 28;
 			this->button27->Text = L"START";
 			this->button27->UseVisualStyleBackColor = true;
@@ -435,23 +424,25 @@ namespace ProjectClientGUI {
 			this->label2->AutoSize = true;
 			this->label2->Location = System::Drawing::Point(12, 15);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(65, 13);
+			this->label2->Size = System::Drawing::Size(50, 13);
 			this->label2->TabIndex = 29;
-			this->label2->Text = L"message";
+			this->label2->Text = L"Message";
+			this->label2->Click += gcnew System::EventHandler(this, &MyForm1::Label2_Click);
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(34, 284);
+			this->textBox2->Location = System::Drawing::Point(14, 247);
 			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(100, 20);
+			this->textBox2->PasswordChar = '*';
+			this->textBox2->Size = System::Drawing::Size(146, 20);
 			this->textBox2->TabIndex = 30;
 			this->textBox2->TextChanged += gcnew System::EventHandler(this, &MyForm1::textBox2_TextChanged);
 			// 
 			// button28
 			// 
-			this->button28->Location = System::Drawing::Point(167, 281);
+			this->button28->Location = System::Drawing::Point(203, 240);
 			this->button28->Name = L"button28";
-			this->button28->Size = System::Drawing::Size(75, 23);
+			this->button28->Size = System::Drawing::Size(111, 32);
 			this->button28->TabIndex = 31;
 			this->button28->Text = L"Send password";
 			this->button28->UseVisualStyleBackColor = true;
@@ -461,7 +452,7 @@ namespace ProjectClientGUI {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(284, 314);
+			this->ClientSize = System::Drawing::Size(327, 284);
 			this->ControlBox = false;
 			this->Controls->Add(this->button28);
 			this->Controls->Add(this->textBox2);
@@ -564,100 +555,95 @@ namespace ProjectClientGUI {
 			 //start
 	private: System::Void button27_Click(System::Object^ sender, System::EventArgs^ e) {
 		WaitForSingleObject(hSem, INFINITE);
-		textBox1->Enabled = !false;
-		textBox1->Visible = !false;
-		button1->Enabled = !false;
-		button1->Visible = !false;
-		button2->Enabled = !false;
-		button2->Visible = !false;
-		button3->Enabled = !false;
-		button3->Visible = !false;
-		button4->Enabled = !false;
-		button4->Visible = 1;
-		button5->Enabled = !false;
-		button5->Visible = !false;
-		button6->Enabled = !false;
-		button6->Visible = !false;
-		button7->Enabled = !false;
-		button7->Visible = !false;
-		button8->Enabled = !false;
-		button8->Visible = !false;
-		button9->Enabled = !false;
-		button9->Visible = !false;
-		button10->Enabled = !false;
-		button10->Visible = !false;
-		button11->Enabled = !false;
-		button11->Visible = !false;
-		button12->Visible = !false;
-		button12->Enabled = !false;
-		button13->Visible = !false;
-		button13->Enabled = !false;
-		button14->Visible = !false;
-		button14->Enabled = !false;
-		button15->Visible = !false;
-		button15->Enabled = !false;
-		button16->Visible = !false;
-		button16->Enabled = !false;
-		button17->Visible = !false;
-		button17->Enabled = !false;
-		button18->Visible = !false;
-		button18->Enabled = !false;
-		button19->Visible = !false;
-		button19->Enabled = !false;
-		button20->Visible = !false;
-		button20->Enabled = !false;
-		button21->Visible = !false;
-		button21->Enabled = !false;
-		button22->Visible = !false;
-		button22->Enabled = !false;
-		button23->Visible = !false;
-		button23->Enabled = !false;
-		button24->Visible = !false;
-		button24->Enabled = !false;
-		button25->Visible = !false;
-		button25->Enabled = !false;
-		button26->Visible = !false;
-		button26->Enabled = !false;
-		HANDLE hStart = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventName6);
-		HANDLE hPressG = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventNameG);
-		HANDLE hPressO = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventNameO);
-		HANDLE hPressN = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventNameN);
-		HANDLE hPressE = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventNameE);
-		HANDLE hPressZ = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)lpEventNameZ);
+		textBox1->Enabled = true;
+		textBox1->Visible = true;
+		button1->Enabled = true;
+		button1->Visible = true;
+		button2->Enabled = true;
+		button2->Visible = true;
+		button3->Enabled = true;
+		button3->Visible = true;
+		button4->Enabled = true;
+		button4->Visible = true;
+		button5->Enabled = true;
+		button5->Visible = true;
+		button6->Enabled = true;
+		button6->Visible = true;
+		button7->Enabled = true;
+		button7->Visible = true;
+		button8->Enabled = true;
+		button8->Visible = true;
+		button9->Enabled = true;
+		button9->Visible = true;
+		button10->Enabled = true;
+		button10->Visible = true;
+		button11->Enabled = true;
+		button11->Visible = true;
+		button12->Visible = true;
+		button12->Enabled = true;
+		button13->Visible = true;
+		button13->Enabled = true;
+		button14->Visible = true;
+		button14->Enabled = true;
+		button15->Visible = true;
+		button15->Enabled = true;
+		button16->Visible = true;
+		button16->Enabled = true;
+		button17->Visible = true;
+		button17->Enabled = true;
+		button18->Visible = true;
+		button18->Enabled = true;
+		button19->Visible = true;
+		button19->Enabled = true;
+		button20->Visible = true;
+		button20->Enabled = true;
+		button21->Visible = true;
+		button21->Enabled = true;
+		button22->Visible = true;
+		button22->Enabled = true;
+		button23->Visible = true;
+		button23->Enabled = true;
+		button24->Visible = true;
+		button24->Enabled = true;
+		button25->Visible = true;
+		button25->Enabled = true;
+		button26->Visible = true;
+		button26->Enabled = true;
+		HANDLE hStart = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"START");
+		HANDLE hPressO = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"O");
+		HANDLE hPressP = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"P");
+		HANDLE hPressE = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"E"); 
+		HANDLE hPressN = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"N");
+		HANDLE hPressZ = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"Z");
 
-		HANDLE hShow = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventName7);
-		HANDLE hWork = CreateEvent(NULL, TRUE, TRUE, (LPWSTR)lpEventName8);
+		HANDLE hShow = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"SHOW");
+		HANDLE hWork = CreateEvent(NULL, TRUE, TRUE, (LPWSTR)"WORK");
 		SetEvent(hStart);
 		CloseHandle(hStart);
-		BYTE ch = 0;
 		bool password = 1;
-		wchar_t dw;
-		int num = 0;
-		//HANDLE hAccept = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventName10);
-		HANDLE hPlus = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"PLUS");
 		textBox1->Visible = 1;
 		textBox1->Enabled = 1;
-		HANDLE hPressA = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameA);
-		HANDLE hPressB = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameB);
-		HANDLE hPressC = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameC);
-		HANDLE hPressD = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameD);
-		HANDLE hPressF = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameF);
-		HANDLE hPressH = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameH);
-		HANDLE hPressI = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameI);
-		HANDLE hPressJ = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameJ);
-		HANDLE hPressK = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameK);
-		HANDLE hPressL = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameL);
-		HANDLE hPressM = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameM);
-		HANDLE hPressP = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameP);
-		HANDLE hPressQ = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameQ);
-		HANDLE hPressR = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameR);
-		HANDLE hPressS = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameS);
-		HANDLE hPressT = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameT);
-		HANDLE hPressU = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameU);
-		HANDLE hPressW = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameW);
-		HANDLE hPressV = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameV);
-		HANDLE hPressX = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameX);
-		HANDLE hPressY = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)lpEventNameY);
+		HANDLE hPressA = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"A");
+		HANDLE hPressB = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"B");
+		HANDLE hPressC = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"C");
+		HANDLE hPressD = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"D");
+		HANDLE hPressF = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"F");
+		HANDLE hPressG = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"G");
+		HANDLE hPressH = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"H");
+		HANDLE hPressI = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"I");
+		HANDLE hPressJ = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"J");
+		HANDLE hPressK = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"K");
+		HANDLE hPressL = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"L");
+		HANDLE hPressM = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"M");
+		HANDLE hPressQ = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"Q");
+		HANDLE hPressR = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"R");
+		HANDLE hPressS = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"S");
+		HANDLE hPressT = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"T");
+		HANDLE hPressU = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"U");
+		HANDLE hPressW = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"W");
+		HANDLE hPressV = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"V");
+		HANDLE hPressX = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"X");
+		HANDLE hPressY = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"Y");
 
 		hAllEvents[0] = hPressA;	hAllEvents[1] = hPressB;	hAllEvents[2] = hPressC;
 		hAllEvents[3] = hPressD;	hAllEvents[4] = hPressE;	hAllEvents[5] = hPressF;
@@ -674,180 +660,184 @@ namespace ProjectClientGUI {
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 
 
-		hAllEvents[0] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameA);
+		hAllEvents[0] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"A");
 		SetEvent((LPWSTR)hAllEvents[0]);
-		a = TRUE;
+		a = 1;
 		textBox1->Text += " A";
 	}
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 			 //B
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[1] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameB);
+		hAllEvents[1] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"B");
 		SetEvent((LPWSTR)hAllEvents[1]);
 		b = 1;
 		textBox1->Text += " B";
 	}
 			 //C
 	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[2] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameC);
+		hAllEvents[2] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"C");
 		SetEvent((LPWSTR)hAllEvents[2]);
+		c = 1;
 		textBox1->Text += " C";
 	}
 			 //D
 	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[3] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameD);
+		hAllEvents[3] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"D");
 		SetEvent((LPWSTR)hAllEvents[3]);
+		d = 1;
 		textBox1->Text += " D";
 	}
 			 //E
 	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[4] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameE);
+		hAllEvents[4] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"E");
 		SetEvent((LPWSTR)hAllEvents[4]);
+		d = 1;
 		textBox1->Text += " E";
 	}
 			 //F
 	private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[5] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameF);
+		hAllEvents[5] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"F");
 		SetEvent((LPWSTR)hAllEvents[5]);
+		f = 1;
 		textBox1->Text += " F";
 	}
 			 //G
 	private: System::Void button15_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[6] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameG);
+		hAllEvents[6] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"G");
 		SetEvent((LPWSTR)hAllEvents[6]);
-		g = TRUE;
+		g = 1;
 		textBox1->Text += " G";
 	}
 			 //H
 	private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[7] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameH);
+		hAllEvents[7] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"H");
 		h = 1;
 		SetEvent((LPWSTR)hAllEvents[7]);
 		textBox1->Text += " H";
 	}
 			 //I
 	private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[8] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameI);
+		hAllEvents[8] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"I");
 		SetEvent((LPWSTR)hAllEvents[8]);
 		i = 1;
 		textBox1->Text += " I";
 	}
 			 //J
 	private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[9] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameJ);
+		hAllEvents[9] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"J");
 		SetEvent((LPWSTR)hAllEvents[9]);
 		j = 1;
 		textBox1->Text += " J";
 	}
 			 //K
 	private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[10] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameK);
+		hAllEvents[10] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"K");
 		SetEvent((LPWSTR)hAllEvents[10]);
 		k = 1;
 		textBox1->Text += " K";
 	}
 			 //L
 	private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[11] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameL);
+		hAllEvents[11] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"L");
 		SetEvent((LPWSTR)hAllEvents[11]);
 		l = 1;
 		textBox1->Text += " L";
 	}
 			 //M
 	private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[12] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameM);
+		hAllEvents[12] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"M");
 		SetEvent((LPWSTR)hAllEvents[12]);
 		m = 1;
 		textBox1->Text += " M";
 	}
 			 //N
 	private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[13] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameN);
+		hAllEvents[13] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"N");
 		SetEvent((LPWSTR)hAllEvents[13]);
 		n = 1;
 		textBox1->Text += " N";
 	}
 			 //O
 	private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[14] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameO);
+		hAllEvents[14] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"O");
 		SetEvent((LPWSTR)hAllEvents[14]);
 		o = 1;
 		textBox1->Text += " O";
 	}
 			 //P
 	private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[15] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameP);
+		hAllEvents[15] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"P");
 		SetEvent((LPWSTR)hAllEvents[15]);
 		p = 1;
 		textBox1->Text += " P";
 	}
 			 //Q
 	private: System::Void button21_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[16] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameQ);
+		hAllEvents[16] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"Q");
 		SetEvent((LPWSTR)hAllEvents[16]);
 		q = 1;
 		textBox1->Text += " Q";
 	}
 			 //R
 	private: System::Void button20_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[17] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameR);
+		hAllEvents[17] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"R");
 		SetEvent((LPWSTR)hAllEvents[17]);
 		r = 1;
 		textBox1->Text += " R";
 	}
 			 //S
 	private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[18] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameS);
+		hAllEvents[18] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"S");
 		SetEvent((LPWSTR)hAllEvents[18]);
 		s = 1;
 		textBox1->Text += " S";
 	}
 			 //T
 	private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[19] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameT);
+		hAllEvents[19] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"T");
 		SetEvent((LPWSTR)hAllEvents[19]);
 		t = 1;
 		textBox1->Text += " T";
 	}
 			 //U
 	private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[20] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameU);
+		hAllEvents[20] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"U");
 		SetEvent((LPWSTR)hAllEvents[20]);
 		u = 1;
 		textBox1->Text += " U";
 	}
 			 //W
 	private: System::Void button26_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[21] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameW);
+		hAllEvents[21] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"W");
 		SetEvent((LPWSTR)hAllEvents[21]);
 		w = 1;
 		textBox1->Text += " W";
 	}
 			 //V
 	private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[22] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameV);
+		hAllEvents[22] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"V");
 		SetEvent((LPWSTR)hAllEvents[22]);
 		v = 1;
 		textBox1->Text += " V";
 	}
 			 //X
 	private: System::Void button24_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[23] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameX);
+		hAllEvents[23] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"X");
 		SetEvent((LPWSTR)hAllEvents[23]);
 		x = 1;
 		textBox1->Text += " X";
 	}
 			 //Y
 	private: System::Void button23_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[24] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameY);
+		hAllEvents[24] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"Y");
 		SetEvent((LPWSTR)hAllEvents[24]);
 		y = 1;
 		textBox1->Text += " Y";
 	}
 			 //Z
 	private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-		hAllEvents[25] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)lpEventNameZ);
+		hAllEvents[25] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPWSTR)"Z");
 		SetEvent((LPWSTR)hAllEvents[25]);
 		z = 1;
 		ReleaseSemaphore(hSem, 1, NULL);
@@ -856,20 +846,22 @@ namespace ProjectClientGUI {
 	}
 
 	private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ e) {
-		string pass = "GONE";
+		string pass = "OPEN";
 		string s = "";
 
 		System::String^ txt = textBox2->Text;
 		s = msclr::interop::marshal_as<std::string>(txt);
 		if (s == pass) {
 			SetEvent(hPassWord);
-			button27->Visible = !false;
-			button27->Enabled = !false;
+			button27->Visible = true;
+			button27->Enabled = true;
 		}
 		else
 			textBox2->Text = "";
 	}
 	private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void Label2_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
