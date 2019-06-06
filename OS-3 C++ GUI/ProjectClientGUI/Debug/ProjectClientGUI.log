@@ -1,3 +1,3 @@
 ﻿  ProjectClientGUI.cpp
-  ProjectClientGUI.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  ProjectClientGUI.vcxproj -> C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectClientGUI\Debug\ProjectClientGUI.exe
+C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectClientGUI\ProjectClientGUI.h(564): error C2065: hSem: необъявленный идентификатор
+C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectClientGUI\ProjectClientGUI.h(853): error C2065: hSem: необъявленный идентификатор
