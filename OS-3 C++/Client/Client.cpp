@@ -35,7 +35,7 @@ int main()
 	CloseHandle(hStart);
 	cout << "Please, enter a password:\n";
 	BYTE ch = 0;
-	bool password = true;
+	bool password = false;
 	wchar_t dw;
 	HANDLE hAccept = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPCSTR)"ACCEPT");
 	while ((ch = LOBYTE(LOWORD(_getch()))) != 27)
@@ -47,54 +47,60 @@ int main()
 			cout << "O ";
 			SetEvent(hPressO);
 			ch = _getch();
+			password = true;
 			if (ch == 80)		//key code P
 			{
 				cout << "P ";
 				SetEvent(hPressP);
 				ch = _getch();
+				password = true;
 				if (ch == 69)		//key code E
 				{
 					cout << "E ";
 					SetEvent(hPressE);
 					ch = _getch();
+					password = true;
 					if (ch == 78)		//key code N
 					{
 						cout << "N ";
 						SetEvent(hPressN);
 						SetEvent(hPassWord);
+						password = true;
 						break;
 					}
 					else
 					{
-						ResetEvent(hWork);
 						password = false;
-						break;
+						cout << "Your password is incorrect! Please enter a password again.\n";
+						continue;
 					}
 				}
 				else
 				{
-					ResetEvent(hWork);
 					password = false;
-					break;
+					cout << "Your password is incorrect! Please enter a password again.\n";
+					continue;
 				}
 			}
 			else
 			{
-				ResetEvent(hWork);
 				password = false;
-				break;
+				cout << "Your password is incorrect! Please enter a password again.\n";
+				continue;
 			}
 		}
 		else
 		{
-			ResetEvent(hWork);
 			password = false;
-			break;
+			cout << "Your password is incorrect! Please enter a password again.\n";
+
+			continue;
 		}
 	}
-	if (!password || ch == 27)
+	if (ch == 27)
 	{
-		cout << "Your password is incorrect! You have been disconnected from the server!\n";
+		ResetEvent(hWork);
+		cout << "Disconnected from the server!\n";
 		return 0;
 	}
 	cout << "The password is entered correctly. Please, you enter only Latin letters:\n";
@@ -113,6 +119,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[0]);
+			ResetEvent(hAllEvents[0]);
 			break;
 		case 18:
 			hAllEvents[1] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"B");
@@ -121,6 +128,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[1]);
+			ResetEvent(hAllEvents[1]);
 			break;
 		case 19:
 			hAllEvents[2] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"C");
@@ -129,6 +137,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[2]);
+			ResetEvent(hAllEvents[2]);
 			break;
 		case 20:
 			hAllEvents[3] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"D");
@@ -137,6 +146,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[3]);
+			ResetEvent(hAllEvents[3]);
 			break;
 		case 21:
 			hAllEvents[4] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"E");
@@ -145,6 +155,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[4]);
+			ResetEvent(hAllEvents[4]);
 			break;
 		case 22:
 			hAllEvents[5] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"F");
@@ -153,6 +164,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[5]);
+			ResetEvent(hAllEvents[5]);
 			break;
 		case 23:
 			hAllEvents[6] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"G");
@@ -161,6 +173,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[6]);
+			ResetEvent(hAllEvents[6]);
 			break;
 		case 24:
 			hAllEvents[7] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"H");
@@ -169,6 +182,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[7]);
+			ResetEvent(hAllEvents[7]);
 			break;
 		case 25:
 			hAllEvents[8] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"I");
@@ -177,6 +191,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[8]);
+			ResetEvent(hAllEvents[8]);
 			break;
 		case 26:
 			hAllEvents[9] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"J");
@@ -185,6 +200,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[9]);
+			ResetEvent(hAllEvents[9]);
 			break;
 		case 27:
 			hAllEvents[10] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"K");
@@ -193,6 +209,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[10]);
+			ResetEvent(hAllEvents[10]);
 			break;
 		case 28:
 			hAllEvents[11] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"L");
@@ -201,6 +218,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[11]);
+			ResetEvent(hAllEvents[11]);
 			break;
 		case 29:
 			hAllEvents[12] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"M");
@@ -209,6 +227,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[12]);
+			ResetEvent(hAllEvents[12]);
 			break;
 		case 30:
 			hAllEvents[13] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"N");
@@ -217,6 +236,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[13]);
+			ResetEvent(hAllEvents[13]);
 			break;
 		case 31:
 			hAllEvents[14] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"O");
@@ -225,6 +245,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[14]);
+			ResetEvent(hAllEvents[14]);
 			break;
 		case 32:
 			hAllEvents[15] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"P");
@@ -233,6 +254,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[15]);
+			ResetEvent(hAllEvents[15]);
 			break;
 		case 33:
 			hAllEvents[16] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"Q");
@@ -241,6 +263,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[16]);
+			ResetEvent(hAllEvents[16]);
 			break;
 		case 34:
 			hAllEvents[17] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"R");
@@ -249,6 +272,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[17]);
+			ResetEvent(hAllEvents[17]);
 			break;
 		case 35:
 			hAllEvents[18] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"S");
@@ -257,6 +281,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[18]);
+			ResetEvent(hAllEvents[18]);
 			break;
 		case 36:
 			hAllEvents[19] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"T");
@@ -265,6 +290,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[19]);
+			ResetEvent(hAllEvents[19]);
 			break;
 		case 37:
 			hAllEvents[20] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"U");
@@ -273,6 +299,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[20]);
+			ResetEvent(hAllEvents[20]);
 			break;
 		case 38:
 			hAllEvents[21] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"W");
@@ -281,6 +308,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[21]);
+			ResetEvent(hAllEvents[21]);
 			break;
 		case 39:
 			hAllEvents[22] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"V");
@@ -289,6 +317,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[22]);
+			ResetEvent(hAllEvents[22]);
 			break;
 		case 40:
 			hAllEvents[23] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"X");
@@ -297,6 +326,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[23]);
+			ResetEvent(hAllEvents[23]);
 			break;
 		case 41:
 			hAllEvents[24] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"Y");
@@ -305,6 +335,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[24]);
+			ResetEvent(hAllEvents[24]);
 			break;
 		case 42:
 			hAllEvents[25] = OpenEvent(EVENT_MODIFY_STATE, FALSE, (LPCSTR)"Z");
@@ -313,13 +344,11 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEvents[25]);
+			ResetEvent(hAllEvents[25]);
 			break;
 		default:
 			cout << "Wrong key!\n";
 			break;
-		}
-		for (int i = 0; i < 25; ++i) {
-			ResetEvent(hAllEvents[i]);
 		}
 		ResetEvent(hPassWord);
 		CloseHandle(hPassWord);
@@ -366,15 +395,11 @@ int main()
 	hAllEvents[24] = hPressY;	hAllEvents[25] = hPressZ;	hAllEvents[26] = hPressExit;
 	hAllEvents[27] = hShow;		hAllEvents[28] = hWork;		hAllEvents[29] = hAccept;
 
-	//ResetEvent(hWork);
-	/*for (int i = 0; i < 30; i++)
-		CloseHandle(hAllEvents[i]);
-		*/
 	CloseHandle(hPressO);
 	CloseHandle(hPressP);
 	CloseHandle(hPressE);
 	CloseHandle(hPressN);
 	CloseHandle(hShow);
-	//system("pause");
+	system("pause");
 	return 0;
 }

@@ -1,5 +1,4 @@
 #include "ProjectServerGUI.h"
-#include <Windows.h>
 using namespace ProjectServerGUI;
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)

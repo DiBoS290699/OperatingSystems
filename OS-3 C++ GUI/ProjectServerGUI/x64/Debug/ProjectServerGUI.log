@@ -1,4 +1,4 @@
 ﻿  ProjectServerGUI.cpp
-C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectServerGUI\ProjectServerGUI.h(181): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectServerGUI\ProjectServerGUI.h(161): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
   ProjectServerGUI.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   ProjectServerGUI.vcxproj -> C:\Users\DiBoS\Desktop\Labs\OperatingSystems\OS-3 C++ GUI\ProjectServerGUI\x64\Debug\ProjectServerGUI.exe

@@ -5,11 +5,8 @@
 #include <msclr\marshal_cppstd.h>
 using namespace std;
 
-HANDLE hAllEvents[29];
-
-
-
-HANDLE hSem = CreateSemaphore(NULL, 3, 3, (LPWSTR)"SEM");
+HANDLE hAllEvents[27];
+HANDLE hSem = OpenSemaphore(SEMAPHORE_ALL_ACCESS, FALSE, (LPWSTR)"SEM");
 #pragma once
 namespace ProjectClientGUI {
 	using namespace System;
@@ -630,8 +627,6 @@ namespace ProjectClientGUI {
 		HANDLE hPressN = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"N");
 		HANDLE hPressExit = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"EXIT");
 
-		HANDLE hShow = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"SHOW");
-		HANDLE hWork = CreateEvent(NULL, TRUE, TRUE, (LPWSTR)"WORK");
 		SetEvent(hStart);
 		CloseHandle(hStart);
 
@@ -668,7 +663,6 @@ namespace ProjectClientGUI {
 		hAllEvents[18] = hPressS;	hAllEvents[19] = hPressT;	hAllEvents[20] = hPressU;
 		hAllEvents[21] = hPressW;	hAllEvents[22] = hPressV;	hAllEvents[23] = hPressX;
 		hAllEvents[24] = hPressY;	hAllEvents[25] = hPressZ;	hAllEvents[26] = hPressExit;
-		hAllEvents[27] = hShow;		hAllEvents[28] = hWork;
 	}
 			 //A
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {

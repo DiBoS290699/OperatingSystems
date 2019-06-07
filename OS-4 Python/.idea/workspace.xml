@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa22f3c0-68a7-4577-b9b5-84bc9e49623b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../OS-1 Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-1 Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-2 C++ DataBase/ClientPipe/Project1/.vs/ClientPipe/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-2 C++ DataBase/ServerPipe/.vs/ServerPipe/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/ipch/AutoPCH/48100f01aa06de70/PROJECTCLIENTGUI.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/.vs/ProjectClientGUI/v16/ipch/AutoPCH/48100f01aa06de70/PROJECTCLIENTGUI.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.log" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/ProjectClientGUI.vcxprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/ProjectClientGUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/ProjectClientGUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/ProjectClientGUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectClientGUI/ProjectClientGUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/ipch/AutoPCH/d005f47a69e2e2eb/PROJECTSERVERGUI.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/.vs/ProjectServerGUI/v16/ipch/AutoPCH/d005f47a69e2e2eb/PROJECTSERVERGUI.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/ProjectServerGUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/ProjectServerGUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.log" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.tlog/ProjectServerGUI.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.tlog/ProjectServerGUI.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.vcxproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.vcxproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.vcxprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/ProjectServerGUI.vcxprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++ GUI/ProjectServerGUI/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/.vs/Client/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/.vs/Client/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/.vs/Client/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/.vs/Client/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Client.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Client/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/.vs/Server/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/.vs/Server/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/.vs/Server/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/.vs/Server/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/Server.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-3 C++/Server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-3 C++/Server/Server.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qwerty.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qwerty.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/OS-4 Python.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="-21" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OS-4 Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OS-4 Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="qwerty" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OS-4 Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qwerty.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.qwerty" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa22f3c0-68a7-4577-b9b5-84bc9e49623b" name="Default Changelist" comment="" />
+      <created>1559834202967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559834202967</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qwerty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

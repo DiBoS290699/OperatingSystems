@@ -100,6 +100,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[0]);
+			ResetEvent(hAllEventsNew[0]);
 			break;
 		case 1:
 			cout <<"B ";
@@ -109,6 +110,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[1]);
+			ResetEvent(hAllEventsNew[1]);
 			break;
 		case 2:
 			cout <<"C ";
@@ -118,6 +120,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[2]);
+			ResetEvent(hAllEventsNew[2]);
 			break;
 		case 3:
 			cout << "D ";
@@ -127,6 +130,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[3]);
+			ResetEvent(hAllEventsNew[3]);
 			break;
 		case 4: 
 			cout << "E ";
@@ -136,6 +140,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[4]);
+			ResetEvent(hAllEventsNew[4]);
 			break;
 		case 5:
 			cout << "F ";
@@ -145,6 +150,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[5]);
+			ResetEvent(hAllEventsNew[5]);
 			break;
 		case 6:
 			cout << "G ";
@@ -154,6 +160,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[6]);
+			ResetEvent(hAllEventsNew[6]);
 			break;
 		case 7: 
 			cout << "H ";
@@ -163,6 +170,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[7]);
+			ResetEvent(hAllEventsNew[7]);
 			break;
 		case 8:
 			cout << "I ";
@@ -172,6 +180,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[8]);
+			ResetEvent(hAllEventsNew[8]);
 			break;
 		case 9:
 			cout << "J ";
@@ -181,6 +190,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[9]);
+			ResetEvent(hAllEventsNew[9]);
 			break;
 		case 10: 
 			cout << "K ";
@@ -190,6 +200,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[10]);
+			ResetEvent(hAllEventsNew[10]);
 			break;
 		case 11:
 			cout << "L ";
@@ -199,6 +210,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[11]);
+			ResetEvent(hAllEventsNew[11]);
 			break;
 		case 12:
 			cout << "M ";
@@ -208,6 +220,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[12]);
+			ResetEvent(hAllEventsNew[12]);
 			break;
 		case 13: 
 			cout << "N ";
@@ -217,6 +230,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[13]);
+			ResetEvent(hAllEventsNew[13]);
 			break;
 		case 14:
 			cout << "O ";
@@ -226,6 +240,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[14]);
+			ResetEvent(hAllEventsNew[14]);
 			break;
 		case 15:
 			cout << "P ";
@@ -235,6 +250,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[15]);
+			ResetEvent(hAllEventsNew[15]);
 			break;
 		case 16: 
 			cout << "Q ";
@@ -244,6 +260,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[16]);
+			ResetEvent(hAllEventsNew[16]);
 			break;
 		case 17:
 			cout << "R ";
@@ -253,6 +270,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[17]);
+			ResetEvent(hAllEventsNew[17]);
 			break;
 		case 18:
 			cout << "S ";
@@ -262,6 +280,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[18]);
+			ResetEvent(hAllEventsNew[18]);
 			break;
 		case 19:
 			cout << "T ";
@@ -271,6 +290,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[19]);
+			ResetEvent(hAllEventsNew[19]);
 			break;
 		case 20:
 			cout << "U ";
@@ -280,6 +300,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[20]);
+			ResetEvent(hAllEventsNew[20]);
 			break;
 		case 21:
 			cout << "W ";
@@ -289,6 +310,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[21]);
+			ResetEvent(hAllEventsNew[21]);
 			break;
 		case 22:
 			cout << "V ";
@@ -298,6 +320,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[22]);
+			ResetEvent(hAllEventsNew[22]);
 			break;
 		case 23:
 			cout << "X ";
@@ -307,6 +330,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[23]);
+			ResetEvent(hAllEventsNew[23]);
 			break;
 		case 24:
 			cout << "Y ";
@@ -316,6 +340,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[24]);
+			ResetEvent(hAllEventsNew[24]);
 			break;
 		case 25:
 			cout << "Z ";
@@ -325,6 +350,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[25]);
+			ResetEvent(hAllEventsNew[25]);
 			break;
 		case 26:
 			cout << "\nExit proccess.\n";
@@ -334,6 +360,7 @@ int main()
 				errOpenEvent();
 			}
 			SetEvent(hAllEventsNew[26]);
+			ResetEvent(hAllEventsNew[26]);
 			numProc--;
 			exit = true;
 			break;
@@ -350,9 +377,6 @@ int main()
 				}
 				SetEvent(hAccept);
 			}
-		}
-		for (int i = 0; i < 27; ++i) {
-			ResetEvent(hAllEventsNew[i]);
 		}
 	}
 

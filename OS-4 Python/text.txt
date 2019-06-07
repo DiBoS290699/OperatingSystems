@@ -1,0 +1,80 @@
+import os
+import win32security
+from time import ctime
+
+def cp(args):
+    if not os.path.exists(args[0]):
+        print('File is not found.')
+    #if os.path.exists(args[1]):
+    #    print('A file already exists in this path.')
+
+    filename = args[0]      # Сохраняем имя файла
+    destination = args[1]   # Сохраняем путь к копии
+
+    file = open(filename, 'r')    # Открываем файл для чтения
+    file.seek(0, os.SEEK_END)     # Переносим указатель в конец
+    source_size = file.tell()     # Получаем номер позиции указателя
+    file.seek(0, os.SEEK_SET)     # Возвращаем указатель на начало
+
+    destination_file = open(destination, 'w')   # Открываем файл для записи
+    while file.tell() < source_size:          # пока позиция указателя не дошла до конца
+        block = file.read(50)                 # Заносим по 50 символов в копию
+        destination_file.write(block)
+    print('Copy completed')
+
+
+def rights_info(file):
+    result = []
+    if os.access(file, os.W_OK):
+        result.append('writable')      # Файл для записи
+    if os.access(file, os.R_OK):
+        result.append('readable')      # Файл для чтения
+    if os.access(file, os.X_OK):
+        result.append('executable')    # Файл можно изменять
+    return result
+
+def help():
+    print('cp - [filename] [path where to copy to] - copy')
+    print('chmod [filename] [encoded rights] - changing rights')
+    print('info [filename] - shows info about `filename`')
+    print('exit - exits the program')
+
+def info(file):
+    files = ''.join(file)   # Достаём строку
+    inf = os.stat(files)    # Заносим информацию о файле
+    inf_path = os.path.abspath(files)   # Путь до файла
+    inf_acc = rights_info(files)       # Получение информации о правах доступа
+    print('File name: ' + str(files))
+    print('Rights: ' + str(inf_acc))
+    print('Size: ' + str(inf.st_size) + ' bytes')
+    print('Path: ' + str(inf_path))
+    print('Created: ' + str(ctime(inf.st_ctime)))
+    sd = win32security.GetFileSecurity(files, win32security.OWNER_SECURITY_INFORMATION)
+    owner_sid = sd.GetSecurityDescriptorOwner()
+    name, domain, type = win32security.LookupAccountSid(None, owner_sid)
+    print('Owner: ' + name)
+
+def chmod(args):
+    rights = int(args[1], 8)
+    path = args[0]
+    os.chmod(path, rights)
+    print('chmod completed')
+
+if __name__ == '__main__':
+    while True:
+        print('Enter commands: ')
+        command = input()                   #Заносим команду
+        command_list = command.split(' ')   #Разбиваем команду на составляющие
+        command_key = command_list[0]       #Заносим ключ в переменную
+        if command_key == '--help':         #Если ключ совпадает с --help,
+            help()                          #то переходим в функцию help
+        elif command_key == 'cp':           #Если ключ совпадает с cp,
+            cp(command_list[1:])            #то передаём в функцию cp файл копирования и путь
+        elif command_key == 'info':         #Если ключ совпадает с info,
+            info(command_list[1:])          #то передаём в функцию info название файла
+        elif command_key == 'chmod':        #Если ключ совпадает с chmod
+            chmod(command_list[1:])         #то передаём в функцию chmod название файла и код права
+        elif command_key == 'exit':
+            exit(0)
+        else:
+            print('Unknown command.')
