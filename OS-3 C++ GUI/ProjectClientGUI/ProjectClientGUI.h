@@ -17,7 +17,7 @@ namespace ProjectClientGUI {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// —водка дл€ MyForm1
+	/// Summary for MyForm1
 	/// </summary>
 	public ref class MyForm1 : public System::Windows::Forms::Form
 	{
@@ -25,14 +25,11 @@ namespace ProjectClientGUI {
 		MyForm1(void)
 		{
 			InitializeComponent();
-			//
-			//TODO: добавьте код конструктора
-			//
 		}
 
 	protected:
 		/// <summary>
-		/// ќсвободить все используемые ресурсы.
+		/// Free all used resources.
 		/// </summary>
 		~MyForm1()
 		{
@@ -81,14 +78,14 @@ namespace ProjectClientGUI {
 
 	private:
 		/// <summary>
-		/// “ребуетс€ переменна€ конструктора.
+		/// You want a variable to the constructor.
 		/// </summary>
 		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// ќб€зательный метод дл€ поддержки конструктора - не измен€йте
-		/// содержимое данного метода при помощи редактора кода.
+		/// Required method for designer support - do not modify 
+		/// the contents of this method using the code editor.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -621,10 +618,10 @@ namespace ProjectClientGUI {
 		textBox1->Visible = true;
 		textBox1->Enabled = true;
 		HANDLE hStart = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"START");
-		HANDLE hPressO = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"O");
+		/*HANDLE hPressO = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"O");
 		HANDLE hPressP = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"P");
 		HANDLE hPressE = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"E"); 
-		HANDLE hPressN = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"N");
+		HANDLE hPressN = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"N");*/
 		HANDLE hPressExit = CreateEvent(NULL, TRUE, FALSE, (LPWSTR)"EXIT");
 
 		SetEvent(hStart);
@@ -635,6 +632,7 @@ namespace ProjectClientGUI {
 		HANDLE hPressB = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"B");
 		HANDLE hPressC = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"C");
 		HANDLE hPressD = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"D");
+		HANDLE hPressE = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"E");
 		HANDLE hPressF = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"F");
 		HANDLE hPressG = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"G");
 		HANDLE hPressH = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"H");
@@ -643,6 +641,9 @@ namespace ProjectClientGUI {
 		HANDLE hPressK = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"K");
 		HANDLE hPressL = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"L");
 		HANDLE hPressM = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"M");
+		HANDLE hPressN = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"N");
+		HANDLE hPressO = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"O");
+		HANDLE hPressP = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"P");
 		HANDLE hPressQ = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"Q");
 		HANDLE hPressR = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"R");
 		HANDLE hPressS = OpenEvent(EVENT_ALL_ACCESS, TRUE, (LPWSTR)"S");

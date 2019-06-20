@@ -1,28 +1,31 @@
-*Open the 1 client  
-*Open the 2 client  
-*Open the 3 client  
-*The start of work 
-*The client introduced the symbol -> A 
-*The client introduced the symbol -> B 
-*The client introduced the symbol -> C 
-*The client introduced the symbol -> D 
-*The client introduced the symbol -> E 
-*The client introduced the symbol -> I 
-*The client introduced the symbol -> J 
-*The client introduced the symbol -> J 
-*The client introduced the symbol -> O 
-*The client introduced the symbol -> U 
-*The client introduced the symbol -> T 
-*The client introduced the symbol -> Y 
-*The client introduced the symbol -> U 
-*The client introduced the symbol -> K 
-*The client introduced the symbol -> P 
-*The client introduced the symbol -> O 
-*The client introduced the symbol -> O 
-*The client disconnected from the server 
+2019-6-20 10:15:39.863 *Open the  client  
+2019-6-20 10:15:39.921 *Open the  client  
+2019-6-20 10:15:39.925 *Open the  client  
+2019-6-20 10:15:39.929 *Open the  client  
+2019-6-20 10:15:55.814 *The start of work 
+2019-6-20 10:16:8.62 *The client introduced the symbol -> A 
+2019-6-20 10:16:8.436 *The client introduced the symbol -> B 
+2019-6-20 10:16:8.786 *The client introduced the symbol -> C 
+2019-6-20 10:16:9.499 *The client introduced the symbol -> A 
+2019-6-20 10:16:9.826 *The client introduced the symbol -> B 
+2019-6-20 10:16:10.211 *The client introduced the symbol -> C 
+2019-6-20 10:16:10.834 *The client introduced the symbol -> A 
+2019-6-20 10:16:11.162 *The client introduced the symbol -> B 
+2019-6-20 10:16:11.484 *The client introduced the symbol -> C 
+2019-6-20 10:16:12.896 *The client disconnected from the server 
  
-*The client disconnected from the server 
+2019-6-20 10:16:14.219 *The client introduced the symbol -> B 
+2019-6-20 10:16:14.538 *The client introduced the symbol -> C 
+2019-6-20 10:16:14.835 *The client introduced the symbol -> D 
+2019-6-20 10:16:15.156 *The client introduced the symbol -> J 
+2019-6-20 10:16:15.457 *The client introduced the symbol -> O 
+2019-6-20 10:16:15.929 *The client introduced the symbol -> N 
+2019-6-20 10:16:16.267 *The client introduced the symbol -> T 
+2019-6-20 10:16:16.539 *The client introduced the symbol -> Z 
+2019-6-20 10:16:17.201 *The client disconnected from the server 
  
-*The client disconnected from the server 
+2019-6-20 10:16:17.857 *The client disconnected from the server 
  
-*All clients disconnected 
+2019-6-20 10:16:18.761 *The client disconnected from the server 
+ 
+2019-6-20 10:16:18.761 *All clients disconnected 
